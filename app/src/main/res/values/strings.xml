@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CalcTwoScreens</string>
+    <string name="numero_1">Número 1</string>
+    <string name="numero_2">Número 2</string>
+    <string name="elije_operacion">Elige operación</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="volver">Volver</string>
+
+    <string-array name="ops_array">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicación</item>
+        <item>División</item>
+    </string-array>
+</resources>
