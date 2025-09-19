@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            val intent = Intent(this, ResultsActivity::class.java).apply {
+            val intent = Intent(this, ResultActivity::class.java).apply {
                 putExtra("num1", a)
                 putExtra("num2", b)
                 putExtra("op", op)

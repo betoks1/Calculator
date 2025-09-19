@@ -12,5 +12,6 @@
         <item>Resta</item>
         <item>Multiplicación</item>
         <item>División</item>
+        <item>Exponente</item>
     </string-array>
 </resources>

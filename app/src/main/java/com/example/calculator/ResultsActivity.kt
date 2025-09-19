@@ -5,6 +5,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.example.calculator.databinding.ActivityResultsBinding
 import java.text.DecimalFormat
+import kotlin.math.pow
 
 class ResultActivity : AppCompatActivity() {
 
@@ -40,6 +41,7 @@ class ResultActivity : AppCompatActivity() {
             "Resta" -> "−" to (a - b)
             "Multiplicación" -> "×" to (a * b)
             "División" -> "÷" to (a / b)
+            "Exponente" -> "^" to (a.pow(b))
             else -> "?" to Double.NaN
         }
     }
